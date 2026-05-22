@@ -98,7 +98,7 @@ cd movie_recom
 ### Step 3: Install Required Libraries
 
 ```bash
-python -m pip install pandas numpy scikit-learn streamlit
+python -m pip install pandas numpy scikit-learn streamlit plotly
 ```
 
 ### Step 4: Run Streamlit Application
