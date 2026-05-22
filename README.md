@@ -1,110 +1,157 @@
-# 🎬 Movie Recommendation System
+# 🎬 WatchGenie - AI Movie Recommendation System
 
 ## 🧾 Project Description
 
-The Movie Recommendation System is a machine learning-based application developed to suggest movies to users based on data analysis. It helps users discover movies by predicting ratings or recommending similar movies using patterns in the dataset.
+WatchGenie is an AI-based movie recommendation system built using Python and Streamlit. It recommends movies based on movie content, mood, genre, group preferences, and chatbot interaction.
 
-The system demonstrates the complete machine learning workflow including data preprocessing, model training, evaluation, and recommendation.
+The system uses **TF-IDF Vectorization** and **Cosine Similarity** to recommend similar movies based on movie descriptions.
 
 ---
 
-## 🔗 Deployment Link
+# 🔗 Deployment Link
 
 https://movierecom-ah8rx5x5uevbiydcwsadj9.streamlit.app/
 
 ---
 
-## ⚙️ Technologies Used
+# ⚙️ Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
+- Streamlit
+- Plotly
+- Regex
+- JSON
 - VS Code
 
 ---
 
-## 🚀 Main Features
+# 🧠 ML Techniques Used
 
-- Data loading and preprocessing
-- Handling missing values
-- Feature selection
-- Movie rating prediction
-- Movie recommendation
-- Model training and evaluation
-- Clean dataset processing
-
----
-
-## 📦 Modules
-
-### 🔹 Data Processing Module
-
-- Load movie dataset
-- Clean missing values
-- Remove duplicate values
-- Convert data types
-- Prepare dataset for training
-
-### 🔹 Model Training Module
-
-- Split dataset into training and testing data
-- Train machine learning model
-- Apply Linear Regression or recommendation logic
-- Evaluate model performance
-
-### 🔹 Recommendation Module
-
-- Accept movie/user input
-- Suggest movies based on data patterns
-- Predict movie ratings
-- Display recommended movies
+- Content-Based Filtering
+- TF-IDF Vectorization
+- Cosine Similarity
+- Rule-Based Chatbot
+- Mood-Based Filtering
+- Genre-Based Filtering
 
 ---
 
-## 🗄️ Dataset
+# 🚀 Main Features
 
-The system uses a CSV dataset containing movie-related information.
+- Similar movie recommendation
+- Mood-based movie suggestions
+- Genre-based recommendation
+- Group movie recommendation
+- AI chatbot interaction
+- Language, year, and rating filters
+- Analytics dashboard
+- Interactive Streamlit UI
 
-The dataset includes:
+---
 
-- Movie names
-- Ratings
-- Genres
-- Other movie features
+# 📦 Modules
+
+## 📂 Data Processing Module
+
+- Loads TMDB movie dataset
+- Handles missing values
+- Extracts release year
+- Converts genre JSON into readable format
+- Maps movie genres to moods
+
+---
+
+## 🎯 Recommendation Module
+
+- Recommends movies using TF-IDF and cosine similarity
+- Suggests movies by mood
+- Suggests movies by genre
+- Provides group recommendations
+
+---
+
+## 🤖 Chatbot Module
+
+- Detects user intent
+- Understands inputs like “movies like Interstellar”
+- Suggests movies based on mood, genre, or similarity
+
+---
+
+## 📊 Dashboard Module
+
+- Shows top-rated movies
+- Displays genre analysis
+- Shows mood distribution
+- Displays rating trends
+
+---
+
+# 🗄️ Dataset
+
+The system uses the **TMDB 5000 Movies Dataset**.
+
+### Dataset File
+```bash
+tmdb_5000_movies.csv
+```
+
+### Dataset Includes
+
+- Movie title
+- Genre
+- Language
+- Release year
+- Rating
+- Overview / description
+- Popularity
 
 ---
 
 # ▶️ Project Setup
 
-### Step 1: Clone Repository
+## Step 1: Clone Repository
 
 ```bash
 git clone https://github.com/K-Maneesha/movie_recom.git
 ```
 
-### Step 2: Open Project Folder
+---
+
+## Step 2: Open Project Folder
 
 ```bash
 cd movie_recom
 ```
 
-### Step 3: Install Required Libraries
+---
+
+## Step 3: Install Required Libraries
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### Or install manually
 
 ```bash
 python -m pip install pandas numpy scikit-learn streamlit plotly
 ```
 
-### Step 4: Run Streamlit Application
+---
+
+## Step 4: Run the Application
 
 ```bash
 python -m streamlit run app.py
 ```
+
 ---
 
-
-
-## 👩‍💻 Team Members
+# 👩‍💻 Team Members
 
 - Dhasamashri N
 - Harshini Durga V
@@ -114,18 +161,22 @@ python -m streamlit run app.py
 
 ---
 
-## 🏁 Conclusion
+# 🏁 Conclusion
 
-This project demonstrates how machine learning can be used to recommend movies based on user preferences and data patterns.
+WatchGenie improves movie discovery by using content-based filtering, TF-IDF vectorization, cosine similarity, mood-based recommendation, and chatbot interaction.
 
-It provides hands-on experience in data preprocessing, model training, and recommendation systems. The project can be further enhanced using advanced algorithms and real-time deployment.
+It provides a simple and interactive way for users to find suitable movies.
 
 ---
 
-## 🔮 Future Enhancement
+# 🔮 Future Enhancement
 
-- Add user login system
-- Deploy using Streamlit
-- Improve accuracy using advanced algorithms
-- Add poster images for movies
-- Add search-based recommendation
+- User login and profile management
+- Deep learning-based recommendations
+- Advanced NLP chatbot
+- Voice-based chatbot assistant
+- IMDb / Netflix API integration
+- Movie poster display
+- Mobile app deployment
+
+---
