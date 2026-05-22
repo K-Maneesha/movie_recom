@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 def load_data():
-    df = pd.read_csv("F:/movie_recom/tmdb_5000_movies.csv")
+    df = pd.read_csv("tmdb_5000_movies.csv")
 
     # Keep only useful columns
     df = df[['title', 'genres', 'original_language', 'release_date', 'vote_average', 'overview', 'popularity']]
