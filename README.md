@@ -15,7 +15,7 @@ Optional – Add your deployment link here if you host your project.
 Example:
 
 ```text
-https://your-project-link.com
+https://movierecom-ah8rx5x5uevbiydcwsadj9.streamlit.app/
 ```
 
 ---
