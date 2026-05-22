@@ -10,13 +10,7 @@ The system demonstrates the complete machine learning workflow including data pr
 
 ## 🔗 Deployment Link
 
-Optional – Add your deployment link here if you host your project.
-
-Example:
-
-```text
 https://movierecom-ah8rx5x5uevbiydcwsadj9.streamlit.app/
-```
 
 ---
 
