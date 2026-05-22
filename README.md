@@ -86,13 +86,13 @@ The dataset includes:
 ### Step 1: Clone Repository
 
 ```bash
-git clone 
+git clone https://github.com/K-Maneesha/movie_recom.git
 ```
 
 ### Step 2: Open Project Folder
 
 ```bash
-cd movie-recommendation-system
+cd movie_recom
 ```
 
 ### Step 3: Install Required Libraries
@@ -104,7 +104,7 @@ python -m pip install pandas numpy scikit-learn streamlit
 ### Step 4: Run Streamlit Application
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 ---
 
